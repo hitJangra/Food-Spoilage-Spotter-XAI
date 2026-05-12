@@ -13,9 +13,8 @@ Traditional Convolutional Neural Networks (CNNs) act as "black boxes." They may 
 This project implements **Explainable AI (XAI)**. By extracting the gradients from the final convolutional layer of a VGG16 model, the system generates a thermal heatmap over the original image. This proves the AI isn't just guessing based on background pixels—it explicitly highlights the exact location of the rot, mold, or bruising.
 
 ## 📸 Project Demo
-*(Upload your screenshots to GitHub by dragging and dropping them here! Put a picture of the original fruit next to the Grad-CAM heatmap fruit).*
-- **Left:** Original input image.
-- **Right:** Grad-CAM output isolating the spoiled region.
+<img width="797" height="392" alt="image" src="https://github.com/user-attachments/assets/7a3158f8-36ff-42fc-ae10-0c12ac7a3694" />
+
 
 ## ⚙️ Technical Architecture
 * **Deep Learning Model:** VGG16 (Transfer Learning with custom top layers)
